@@ -1,29 +1,15 @@
-*Made for Credicxo Internship Coding round*
+*Music Player Project for Flutter Developer Coding Round*
 
-- Developed in Flutter using BLoC pattern
-- This app provides the Top ten songs according to MusixMatch non commercial API.
-- Each song can be selected for further details as well as limited lyrics provided by the API
+- This app provides the lyrics of top songs according to MusixMatch API.
+- Each song can be selected for further details as well as limited lyrics provided by the API.
+- The API key is uniquely generated through MusixMatch.
+- Developed in Flutter using BLoC pattern.
 - Songs can also be bookmarked from the song detail page.
-- All bookmarked songs can be viewed from Bookmark button on the 'Trending' (Home) page  
-
-![MusicLyrics](https://user-images.githubusercontent.com/43174511/118363904-15d5b580-b5b4-11eb-8d94-dfe596be39fb.gif)
-
-
 
 **Usage :**
-
-- Real time Network sensitive app - check by turning on/off internet on home and details page. 
-- Bookmark button on the home leads to bookmark page
-- Bookmark button on track page bookmarks it. (visible on bookmark page)
-- API can be changed in /lib/constants.dart 
-- **Please change API if app is in "connecting" as only 2k hits per day is allowed.**
-
-**Todo :**
-
-- Refactoring
-- Performance improvement 
-- UI could be changed for better UX
-
-
-
+ 
+- Bookmark button on the home leads to bookmark page.
+- Bookmark button on track page bookmarks it.
+- API can be changed in /lib/constants.dart.
+- The app is sensitive to Internet at real time.
 
